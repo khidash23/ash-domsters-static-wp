@@ -1,0 +1,20 @@
+/*
+Theme Name: Ashbel Domsters Static
+Author: Ashbel
+Author URI: http://ashbelhernandez.com/
+Description: Domsters Wordpress Site
+Version: 1.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+
+Code and take over the world line-by-line
+*/
+
+
+.current-menu-item > a {
+    background: #000;
+}
+
+article.post {
+    margin: 20px 0 40px;
+}

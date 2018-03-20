@@ -1,0 +1,210 @@
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  margin: 1em auto;
+  max-width: 80em;
+}
+
+#header {
+  background-image: url(../images/guitarist.gif);
+  background-repeat: no-repeat;
+  background-position: bottom right;
+  background-size: 175px;
+  height: 200px;
+}
+
+#header img {
+  display: block;
+  position: relative;
+  max-width: 225px;
+  width:90%;
+  height: auto;
+}
+
+#navigation {
+  padding: 1rem;
+}
+#navigation ul {
+  width: 100%;
+}
+#navigation li {
+  display: inline-block;
+}
+#navigation li a {
+  display: block;
+  float: left;
+  padding: 1rem;
+}
+#content {
+  padding: 3rem 10%;
+  padding-bottom: 7rem;
+}
+
+#content h1 {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+
+#content h2 {
+  text-transform: capitalize;
+  font-size: 1.25rem;
+  margin-bottom: 1rem;
+}
+
+#content #internalnav {
+  list-style: none;
+  padding: 0px;
+}
+#content #internalnav li {
+  list-style: none;
+  padding: 5px 0px;
+}
+#content #internalnav li a {
+  list-style: none;
+  text-decoration: none;
+}
+
+
+#about #header {
+  background-image: url(../images/lineup.gif);
+}
+#photos #header {
+  background-image: url(../images/basshead.gif);
+}
+#live #header {
+  background-image: url(../images/bassist.gif);
+}
+#contact #header {
+  background-image: url(../images/guitarist.gif);
+}
+#content img {
+
+}
+
+#imagegallery {
+  position: relative;
+  display: block;
+  width: 100%;
+}
+
+#imagegallery li {
+  display: block;
+  float: left;
+  padding: 0rem 1rem 1rem 0rem;
+}
+
+#description {
+  margin-top: 2rem;
+  clear: both;
+}
+
+#slideshow {
+  width: 150px;
+  height: 150px;
+  position: relative;
+  overflow: hidden;
+}
+img#frame {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 99;
+  border-width: 0;
+  outline-width: 0;
+}
+img#preview {
+  position: absolute;
+  border-width: 0;
+  outline-width: 0;
+}
+dl {
+  overflow: hidden;
+}
+dt {
+  float: left;
+}
+dd {
+  float: left;
+}
+label {
+  color: #ccc;
+  display: block;
+}
+fieldset {
+  border: 0;
+}
+td {
+  padding: .5em 3em;
+}
+
+article.post {
+    margin: 20px 0 40px;
+}
+
+fieldset {
+  position: relative;
+  display: block;
+  width: 100%;
+  margin:0px auto;
+}
+
+fieldset input {
+  color: #aaa;
+  padding: .5rem;
+  background-color: #334;
+  outline: none;
+  border: none;
+}
+
+fieldset textarea {
+  color: #aaa;
+  padding: .5rem;
+  background-color: #334;
+  outline: none;
+  border: none;
+}
+
+
+fieldset .col-50 {
+  width:50%;
+  float:left;
+}
+
+fieldset .col-50 label {
+  margin-bottom: -1rem;
+}
+
+fieldset .col-50 input {
+  width:80%;
+  margin-bottom: 1rem;
+}
+
+fieldset .col-100 {
+  width:90%;
+  display: block;
+  clear: both;
+}
+
+fieldset .col-100 label {
+  margin-bottom: -1rem;
+}
+
+fieldset .col-100 textarea {
+  width:100%;
+}
+
+fieldset input[type="submit"].button
+{
+  margin-top: 1rem;
+  padding: .75rem 2rem;
+}
+
+
+footer {
+  padding: 1rem;
+}

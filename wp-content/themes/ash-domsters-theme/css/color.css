@@ -1,0 +1,94 @@
+body {
+  color: #fff;
+  background-color: #140b25;
+}
+a:link {
+  color: #ccc;
+}
+.current-menu-item > a {
+  color: #8f61ce !important;
+}
+a:hover {
+  color: #74619e;
+}
+a:visited {
+  color: #ccc;
+}
+
+.post a:hover{
+  color: #74619e !important; 
+}
+
+#header {
+  color: #ec8;
+  background-color: #334;
+}
+#navigation {
+  color: #ccc;
+  background-color: #463a60;
+}
+#content {
+  background-color: #180e2b;
+}
+
+#content #internalnav li a {
+  color: #74619e;
+}
+
+#content #internalnav li a:hover {
+  color: #463a60 !important;
+}
+
+
+#navigation ul {
+  list-style: none;
+}
+#navigation a:link,#navigation a:visited {
+  list-style: none;
+  text-decoration: none;
+  color: #ccc;
+}
+#navigation a:hover {
+  color:#fff;
+}
+#content p {
+  color: #aaa !important;
+}
+#content img {
+
+}
+#imagegallery a {
+  background-color: transparent;
+}
+th {
+  color: #fff;
+  background-color: #463a60;
+}
+tr td {
+  color: #aaa;
+}
+tr:nth-child(even) {
+  background-color:  #1f182f;
+}
+tr:nth-child(odd) {
+  background-color: #251d39;
+}
+
+fieldset input[type="submit"].button
+{
+  cursor: pointer;
+  color:#fff;
+  background-color: #463a60 !important;
+}
+
+fieldset input.button:hover
+{
+  color:#fff;
+  background-color: #74619e !important;
+}
+
+
+footer {
+  color: #ccc;
+  background-color: #463a60 !important;
+}
